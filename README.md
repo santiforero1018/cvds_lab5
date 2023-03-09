@@ -1,2 +1,5 @@
 # cvds_lab5
-### Santiago Forero, Juan Sebastian Cepeda Saray
+> ## **Integrantes**
+>
+> 1. Santiago Forero
+> 2. Juan Sebastian Cepeda Saray
