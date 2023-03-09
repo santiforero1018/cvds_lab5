@@ -35,16 +35,17 @@ public class Service {
                 .append("</tr>")
                 .toString();
     }
+    
     public static String todosToHTMLTable(List<Todo> todoList) {
         StringBuilder stringBuilder = new StringBuilder("<table>")
-        .append("<tr>")
-        .append("<th>User Id</th>")
-        .append("<th>Id</th>")
-        .append("<th>Title</th>")
-        .append("<th>Completed</th>")
-        .append("</tr>");
+            .append("<tr>")
+            .append("<th>User Id</th>")
+            .append("<th>Id</th>")
+            .append("<th>Title</th>")
+            .append("<th>Completed</th>")
+            .append("</tr>");
         for (Todo todo : todoList) {
-        stringBuilder.append(todoToHTMLRow(todo));    
+            stringBuilder.append(todoToHTMLRow(todo));    
         }
         return stringBuilder.append("</table>").toString();
     }
