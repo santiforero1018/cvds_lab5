@@ -8,7 +8,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
 @ManagedBean(name = "guessBean")
-@ApplicationScoped
+@SessionScoped
 public class GuessBean {
     private int luckyNum;
     private int tries;
